@@ -1,0 +1,13 @@
+An AI agent is a software system that uses an AI model to reason, plan, choose actions, and use tools to complete a task.
+
+A simple chatbot usually only answers messages. An AI agent can go further by calling APIs, searching documents, using a database, sending emails, creating reports, or triggering workflows.
+
+Common parts of an AI agent include a goal, a language model, tool access, memory, planning logic, and safety rules.
+
+For business use, AI agents can help with customer support, document processing, lead qualification, data entry, report generation, internal knowledge search, and workflow automation.
+
+For example, a finance AI agent could read transaction data, detect unusual patterns, summarize the issue, and create a follow-up task for a human team member.
+
+Agents should be designed carefully because they can make mistakes. A production agent should have permission control, logging, human approval for risky actions, tests, and clear failure handling.
+
+In an interview, Yu Chengyan can explain that an AI agent is not only a chatbot. It is a system that can reason over a task and use tools to produce a useful result.

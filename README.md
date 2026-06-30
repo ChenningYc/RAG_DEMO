@@ -17,6 +17,12 @@ Then ask questions such as:
 - What skills are useful for this role?
 - Is the internship onsite or remote?
 - What is RAG?
+- What is an AI agent?
+- What is prompt engineering?
+- What is Docker used for?
+- What are embeddings and vector databases?
+- Tell me about Yu Chengyan.
+- Why are you interested in this internship?
 
 Type `exit` to quit.
 
@@ -24,17 +30,23 @@ Type `exit` to quit.
 
 ```text
 Knowledge files
-      ↓
+      |
+      v
 Load text
-      ↓
+      |
+      v
 Chunk text
-      ↓
+      |
+      v
 Convert chunks and question into word-frequency vectors
-      ↓
+      |
+      v
 Cosine similarity search
-      ↓
+      |
+      v
 Top relevant chunks
-      ↓
+      |
+      v
 Grounded answer with sources
 ```
 
@@ -53,3 +65,12 @@ Grounded answer with sources
 - Store vectors in Chroma, FAISS, Pinecone, or PostgreSQL with pgvector.
 - Add a Streamlit, FastAPI, or React interface.
 - Add source citations, user login, document permissions, Docker deployment, and logging.
+
+## New Knowledge Files
+
+- `ai_agents.txt`: AI agent concepts and business use cases.
+- `prompt_engineering.txt`: prompt structure and RAG prompt rules.
+- `docker_basics.txt`: Docker concepts for deployment.
+- `embedding_vector_db.txt`: embeddings and vector database basics.
+- `interview_profile.txt`: candidate profile and internship motivation.
+- `interview_qa.txt`: common English interview questions and sample answers.

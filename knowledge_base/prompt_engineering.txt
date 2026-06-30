@@ -1,0 +1,13 @@
+Prompt engineering means designing clear instructions for a language model so it gives more useful, accurate, and consistent responses.
+
+A good prompt usually includes the role, task, context, constraints, output format, and examples.
+
+For a RAG system, the prompt should tell the model to answer only using the retrieved context. If the context does not contain the answer, the model should say that it does not know instead of guessing.
+
+Prompt engineering is useful for summarization, classification, extraction, translation, coding help, customer support, and workflow automation.
+
+Examples of prompt constraints include asking the model to be concise, use bullet points, return JSON, cite sources, avoid unsupported claims, or ask a clarifying question when information is missing.
+
+Prompt engineering alone is not always enough. If the model needs private company information, updated information, or many documents, RAG is usually a better approach.
+
+In an interview, Yu Chengyan can say that prompt engineering controls how the model behaves, while RAG supplies the model with relevant external knowledge.

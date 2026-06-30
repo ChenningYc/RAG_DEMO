@@ -1,0 +1,13 @@
+Docker is a tool for packaging an application together with its dependencies and runtime environment.
+
+Docker helps developers run the same application consistently on different machines, such as a local laptop, test server, or production server.
+
+A Docker image is like a packaged application template. A Docker container is a running instance of that image.
+
+For an AI application, Docker can package the Python version, libraries, environment variables, app code, and startup command.
+
+Docker is useful for deployment because the development team does not need to manually install every dependency on the server.
+
+A simple production path for this RAG demo could be: create a Dockerfile, install Python dependencies, copy the app files, expose a port, and run the web app or API service.
+
+In an interview, Yu Chengyan can say that Docker makes AI applications easier to deploy, share, and reproduce across environments.

@@ -1,0 +1,15 @@
+An embedding is a numerical representation of text. It converts words, sentences, or documents into vectors so that similar meanings are closer together in vector space.
+
+Embeddings are important in RAG because they allow the system to search by meaning instead of only matching exact words.
+
+For example, the question "What skills do interns need?" may match a document chunk that says "basic exposure to Python, JavaScript, SQL, and problem-solving ability" even if the exact words are different.
+
+A vector database stores embeddings and supports fast similarity search.
+
+Common vector database options include FAISS, Chroma, Pinecone, Weaviate, Milvus, and PostgreSQL with pgvector.
+
+The basic RAG indexing flow is: collect documents, clean text, split into chunks, create embeddings, and store the embeddings with metadata in a vector database.
+
+The basic RAG query flow is: embed the user question, search the vector database, retrieve the most relevant chunks, insert those chunks into the prompt, and ask the LLM to answer.
+
+This demo uses simple word-frequency vectors to keep it lightweight and easy to run. A production version should use real embeddings for better semantic search.

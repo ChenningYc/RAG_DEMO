@@ -1,0 +1,17 @@
+Yu Chengyan is preparing for an English interview for an AI internship role.
+
+Yu Chengyan is interested in AI engineering, software development, automation, and practical business applications of AI.
+
+Yu Chengyan has basic programming experience and is learning how to build practical AI applications with Python.
+
+For interview preparation, Yu Chengyan built a small company knowledge base RAG demo.
+
+The demo reads local text documents, splits them into chunks, retrieves relevant information based on a user question, and returns an answer with source files.
+
+Yu Chengyan's strengths include fast learning, logical thinking, problem-solving attitude, willingness to read documentation, and interest in real AI projects.
+
+Yu Chengyan is still learning, but is serious about improving through hands-on practice and real project experience.
+
+Yu Chengyan is interested in this internship because the role involves RAG systems, AI agents, LLM workflows, data preparation, Docker, debugging, testing, deployment, and commercial AI solutions.
+
+Yu Chengyan's career goal is to grow toward an AI Engineer or AI Solutions Architect path.

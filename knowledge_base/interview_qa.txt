@@ -1,0 +1,17 @@
+Question: Tell me about yourself.
+Answer: My name is Yu Chengyan. I am interested in AI engineering, software development, and automation. I have basic programming experience, mainly with Python, and I am learning how to build practical AI applications. For this interview, I prepared a small company knowledge base RAG demo. I am still learning, but I learn fast, enjoy solving problems, and want to grow through real AI projects.
+
+Question: Why are you interested in this internship?
+Answer: I am interested in this internship because it focuses on real AI solutions, not only theory or routine tasks. The role includes RAG systems, AI agents, LLM workflows, data preparation, Docker, testing, and deployment. These are the exact areas I want to improve in.
+
+Question: What is RAG?
+Answer: RAG means Retrieval-Augmented Generation. It helps an AI system answer questions using external knowledge. The system first retrieves relevant information from a knowledge base, then uses that context to generate a more grounded answer.
+
+Question: Why is RAG useful for companies?
+Answer: RAG is useful because companies often have private, updated, or domain-specific information that a normal language model may not know. RAG helps the model answer based on internal documents and reduces hallucination.
+
+Question: How would you improve this demo?
+Answer: I would add PDF and website ingestion, use real embeddings, store vectors in a vector database, connect an LLM API, add a web interface, containerize the app with Docker, and add logging, authentication, and evaluation.
+
+Question: What is your weakness?
+Answer: I am still building deeper production experience, especially in deployment and large-scale systems. However, I am actively improving by building small projects, reading documentation, and learning step by step from real examples.
