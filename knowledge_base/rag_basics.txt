@@ -1,0 +1,17 @@
+RAG stands for Retrieval-Augmented Generation.
+
+A RAG system combines information retrieval with text generation.
+
+First, documents are collected from sources such as PDFs, websites, databases, or internal knowledge bases.
+
+Next, the documents are cleaned and split into smaller chunks.
+
+Each chunk is converted into a searchable representation, often using embeddings.
+
+When the user asks a question, the system searches for the most relevant chunks.
+
+The retrieved chunks are placed into the prompt as context.
+
+The language model then answers using the provided context.
+
+RAG is useful when the answer depends on private, updated, or domain-specific information that may not exist in the language model's training data.

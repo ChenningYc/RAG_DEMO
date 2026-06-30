@@ -1,0 +1,9 @@
+Interns may build AI agents, RAG systems, and LLM-powered workflows using external APIs and prompt engineering.
+
+Interns may prepare, clean, and structure data from internal databases and external sources, including web scraping and knowledge-base curation.
+
+Interns may containerize and deploy applications using Docker for production-ready integration.
+
+Interns may participate in debugging, testing, documentation, benchmarking, and performance optimization.
+
+Interns may research emerging AI tools and help turn ideas into scalable, practical solutions.
