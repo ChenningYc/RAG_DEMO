@@ -1,6 +1,7 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
+import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
@@ -8,8 +9,8 @@ from urllib.parse import urlparse
 from rag_demo import generate_answer, load_knowledge_base, retrieve
 
 
-HOST = "127.0.0.1"
-PORT = 8000
+HOST = os.environ.get("HOST", "127.0.0.1")
+PORT = int(os.environ.get("PORT", "8000"))
 STATIC_DIR = Path("static")
 
 
@@ -116,3 +117,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
