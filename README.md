@@ -26,6 +26,20 @@ Then ask questions such as:
 
 Type `exit` to quit.
 
+## Run Web Demo
+
+```powershell
+python web_app.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000
+```
+
+The web version lets users type questions in a browser, sends the question to a local Python API, and displays the retrieved answer with source files.
+
 ## How It Works
 
 ```text

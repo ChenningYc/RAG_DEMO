@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Company Knowledge Base AI</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace">
+        <div class="header">
+          <div>
+            <p class="eyebrow">RAG Demo</p>
+            <h1>Company Knowledge Base AI</h1>
+          </div>
+          <div class="status">
+            <span class="status-dot"></span>
+            Local demo
+          </div>
+        </div>
+
+        <form id="question-form" class="question-form">
+          <label for="question">Ask a question</label>
+          <div class="input-row">
+            <input
+              id="question"
+              name="question"
+              type="text"
+              autocomplete="off"
+              placeholder="What is an AI agent?"
+            >
+            <button type="submit">Ask</button>
+          </div>
+        </form>
+
+        <div class="quick-prompts" aria-label="Example questions">
+          <button type="button" data-question="What is RAG?">RAG</button>
+          <button type="button" data-question="What is an AI agent?">AI agent</button>
+          <button type="button" data-question="What is Docker used for?">Docker</button>
+          <button type="button" data-question="Tell me about Yu Chengyan.">Profile</button>
+        </div>
+
+        <section class="answer-panel" aria-live="polite">
+          <div class="panel-title">
+            <h2>Answer</h2>
+            <span id="chunk-count"></span>
+          </div>
+          <pre id="answer">Ask a question to search the knowledge base.</pre>
+        </section>
+
+        <section class="sources-panel">
+          <div class="panel-title">
+            <h2>Sources</h2>
+          </div>
+          <div id="sources" class="sources">
+            <p class="empty-state">Relevant source files will appear here.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
